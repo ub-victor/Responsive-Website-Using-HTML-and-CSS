@@ -1,0 +1,27 @@
+/*pseudo classes */
+:root {
+    color: red;
+}
+    
+p:hover {
+    color: blue;
+ 
+}
+a:visited{
+    color: green;
+     
+}
+.list-examples-1 p:last-child{
+    color: chartreuse;
+}
+
+.list-examples-2 p:nth-child(2n+0){
+    color: pink;
+}
+h1::selection{
+    background-color: yellow;
+    color: red;
+}
+h1::before{
+    content: "This is a paragraph - ";
+}
