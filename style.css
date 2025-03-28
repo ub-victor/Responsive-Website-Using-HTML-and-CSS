@@ -134,13 +134,18 @@ header nav ul {
 }
 
 header nav ul li {
+    display: inline-block; /*to set them to seat horizotally*/
     
-    
+    list-style: none;
+    padding: 0 16px;    
 }
 
 header nav ul a {
     font-size: catamaran;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 16px;
     color: #111;
+}
+
+header .header-cases{
+    display: none;
 }
