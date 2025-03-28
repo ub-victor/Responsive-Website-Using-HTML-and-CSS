@@ -151,3 +151,15 @@ header nav ul a {
 header .header-cases{
     display: none;
 }
+
+/* INDEX*/
+
+.index-banner{
+    width: 100%;
+    /* Set the height of the banner to fill the viewport height minus the header height */
+    height: calc(100vh - 100px);
+    background-image: url(image/bac.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
