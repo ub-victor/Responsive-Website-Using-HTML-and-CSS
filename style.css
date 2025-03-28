@@ -130,12 +130,14 @@ header .header-brand{
 }
 
 header nav ul {
-    
+    display: block;
+    margin: 0 auto;/*to center the ul but it will not center  it because the ul take 100% of width of the header */
+    width: fit-content; /**/
 }
 
 header nav ul li {
     display: inline-block; /*to set them to seat horizotally*/
-    
+    float: left;
     list-style: none;
     padding: 0 16px;    
 }
