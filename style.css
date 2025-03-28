@@ -163,3 +163,11 @@ header .header-cases{
     background-position:center;
     background-size: cover;
 }
+
+index-banner h2 {
+    font-size: catamaran;
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
