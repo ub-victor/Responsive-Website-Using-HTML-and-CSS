@@ -162,6 +162,14 @@ header .header-cases{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
+    /* Center content vertically within the banner */
+    display: table;
+}
+
+.vertical-center{
+    /* Align content vertically within the parent container */
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .index-banner h2 {
