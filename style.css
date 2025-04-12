@@ -195,12 +195,4 @@ header .header-cases{
     width: calc(100% - 32px);
     height: 100px;
     background-color: #f2f2f2;
-    font-size: Cormorant Garamond;
-    font-size: 28px;
-    font-weight: 100;
-    font-style: italic;
-    line-height: 40px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 2px 2px 8px #111; 
 }
