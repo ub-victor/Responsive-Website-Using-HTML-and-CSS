@@ -191,8 +191,8 @@ header .header-cases{
 }
 
 .index-boxlink-1 {
-    margin: 10px;
-    width: calc(100% - 10px);
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
     height: 100px;
     background-color: #f2f2f2;
 }
