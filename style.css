@@ -196,3 +196,14 @@ header .header-cases{
     height: 100px;
     background-color: #f2f2f2;
 }
+
+.index-link div h3 {
+    font-size: catamaran;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111; 
+}
