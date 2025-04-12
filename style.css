@@ -190,7 +190,7 @@ header .header-cases{
     text-shadow: 2px 2px 8px #111; 
 }
 
-.index-boxlink-1 {
+.index-link div {
     margin: 16px 16px 0;
     width: calc(100% - 32px);
     height: 100px;
