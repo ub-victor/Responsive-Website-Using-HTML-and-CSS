@@ -224,6 +224,9 @@ footer ul {
     padding-left: 20px;
 }
 
-footer ul a{
-    
+footer ul li{
+    display: inline-block; /*Align item horizotally*/
+    float: left;
+    list-style: none;
+    padding: 0 16px;
 }
