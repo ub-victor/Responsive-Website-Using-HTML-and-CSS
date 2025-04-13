@@ -192,6 +192,7 @@ header .header-cases{
 
 .index-link div {
     margin: 16px 16px 0;
+    /* Set the width of the div to be the full width of its container minus 32px (16px margin on each side) */
     width: calc(100% - 32px);
     height: 100px;
     background-color: #f2f2f2;
@@ -206,3 +207,5 @@ header .header-cases{
     text-align: center;
     text-transform: uppercase;
 }
+
+// Footer
