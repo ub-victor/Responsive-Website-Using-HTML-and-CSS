@@ -221,6 +221,9 @@ footer {
 footer ul {
     width: fit-content;
     float: left;
-    padding-left: ;
+    padding-left: 20px;
 }
 
+footer ul {
+    
+}
