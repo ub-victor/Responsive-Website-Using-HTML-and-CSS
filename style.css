@@ -217,3 +217,8 @@ footer {
     margin-top: -20px;
     background-color: #111;
 }
+
+footer ul {
+    width: fit-content;
+    float: left;
+}
