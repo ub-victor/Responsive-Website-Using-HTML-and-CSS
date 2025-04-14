@@ -227,6 +227,7 @@ footer ul {
 footer ul li{
     display: block;
     list-style: none;
+    line-height: 20px;
 }
 
 footer ul li a{
