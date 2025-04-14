@@ -151,7 +151,7 @@ header .header-cases{
 
 @media only screen and (min-width: 1000px){
     header .header-brand{
-        margin: 0;
+        margin: 31px 0;
         text-align: left;
         line-height: 38px;
         padding: 0px 20px 0px 38px;
