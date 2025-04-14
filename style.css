@@ -240,3 +240,8 @@ footer ul li a{
     display: none;
 }
 
+.footer-sm {
+    width: 60px;
+    float: right;
+}
+
