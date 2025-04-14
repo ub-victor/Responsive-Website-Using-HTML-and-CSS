@@ -235,3 +235,7 @@ footer ul li a{
     font-size: 14px;
     color: #fff;
 }
+
+.footer-link-cases {
+    display: none;
+}
