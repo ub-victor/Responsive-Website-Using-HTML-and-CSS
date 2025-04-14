@@ -234,7 +234,7 @@ footer ul li a{
     font-size: catamaran;
     font-size: 24px;
     color: #fff;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .footer-links-cases {
@@ -247,7 +247,8 @@ footer ul li a{
 }
 
 .footer-sm img {
-    height: 40px;
+    height: 50px;
     width: 100%;
     margin-bottom: 10px;
+    
 }
