@@ -151,8 +151,8 @@ header .header-cases{
 
 @media only screen and (min-width: 1000px){
     header .header-brand{
-        margin: 0;
-        text-align: center;
+        margin: 0 auto;
+        text-align: left;
         padding: 20px 0;
     }
 }
