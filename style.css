@@ -149,7 +149,20 @@ header .header-cases{
     display: none;
 } 
 
-
+@media only screen and (min-width: 1000px){
+    header .header-brand{
+        font-size: catamaran;
+        font-size: 24px;
+        font-weight: 900;
+        color: #111;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 0;
+    
+    }
+}
 
 /* INDEX*/
 
