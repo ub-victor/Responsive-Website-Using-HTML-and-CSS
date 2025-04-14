@@ -154,6 +154,7 @@ header .header-cases{
         margin: 0;
         text-align: left;
         padding: 20px 20px 20px 0px;
+        border-right: 3px solid #111;
     }
 }
 
