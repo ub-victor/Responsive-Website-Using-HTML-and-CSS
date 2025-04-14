@@ -245,3 +245,7 @@ footer ul li a{
     float: right;
 }
 
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
