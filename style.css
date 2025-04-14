@@ -242,11 +242,12 @@ footer ul li a{
 }
 
 .footer-sm {
-    width: 60px;
+    width: 50px;
     float: right;
 }
 
 .footer-sm img {
+    height: 40px;
     width: 100%;
     margin-bottom: 10px;
 }
