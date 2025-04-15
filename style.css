@@ -160,7 +160,7 @@ header .header-cases{
     }
 
     header nav ul {
-        margin: 20px 0px;
+        margin: 25px 0px;/* Here we can center vertically the nav manually by creating the line-heigt the we take the 100px of the header-the px we give to the line-heigt then we divide the by 2 then we can give the top and buttom of the marge of the nav the number of px got*/
         float: left;
     }
     
@@ -176,7 +176,7 @@ header .header-cases{
         font-size: 20px;
         color: #111;
         font-weight: 600;
-        line-height: 60px;
+        line-height: 50px;
     }
 }
 
