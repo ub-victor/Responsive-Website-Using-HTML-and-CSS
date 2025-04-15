@@ -159,7 +159,25 @@ header .header-cases{
         float: left;
     }
 
+    eader nav ul {
+        display: block;
+        margin: 0 auto;/*to center the ul but it will not center  it because the ul take 100% of width of the header */
+        width: fit-content; /* it sets it to fit*/
+    }
     
+    header nav ul li {
+        display: inline-block; /*Align item horizotally*/
+        float: left;
+        list-style: none;
+        padding: 0 16px;    
+    }
+    
+    header nav ul a {
+        font-size: catamaran;
+        font-size: 20px;
+        color: #111;
+        font-weight: 600;
+    }
 }
 
 /* INDEX*/
