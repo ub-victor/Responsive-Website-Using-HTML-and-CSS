@@ -184,10 +184,11 @@ header .header-cases{
         color: #111;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 38px;
+        line-height: 38px; /*let us put in mind that we have 40px due to those border so it will be 100px-40px=60px/2=30px for the mt to centered it the middle of the header*/
         border: 1px solid #111;
         float: right;
         margin-right: 40px;
+        margin-top: 30px;
         padding: 0 20px;
     } 
 }
