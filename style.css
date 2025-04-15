@@ -160,8 +160,8 @@ header .header-cases{
     }
 
     header nav ul {
-        display: block;
-        width: fit-content; /* it sets it to fit*/
+        margin: 0;
+        float: left;
     }
     
     header nav ul li {
