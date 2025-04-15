@@ -179,6 +179,10 @@ header .header-cases{
         font-weight: 600;
         line-height: 10px;
     }
+
+    header .header-cases{
+        display: none;
+    } 
 }
 
 /* INDEX*/
