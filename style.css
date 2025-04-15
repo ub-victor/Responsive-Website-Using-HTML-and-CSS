@@ -165,12 +165,13 @@ header .header-cases{
         float: left;
     }
     
+    /* we do need this as we need not make any modification to the ul li 
     header nav ul li {
         display: inline-block; /*Align item horizotally*/
         float: left;
         list-style: none;
         padding: 0 16px;    
-    }
+    } */
     
     header nav ul a {
         font-size: catamaran;
