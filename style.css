@@ -188,6 +188,7 @@ header .header-cases{
         border: 1px solid #111;
         float: right;
         margin-right: 40px;
+        padding: 0 20px;
     } 
 }
 
