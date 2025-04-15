@@ -165,7 +165,7 @@ header .header-cases{
         float: left;
     }
     
-    /* we do need this as we need not make any modification to the ul li 
+    /* we do need these lines of codes as we need not make any modification to the ul li 
     header nav ul li {
         display: inline-block; 
         float: left;
