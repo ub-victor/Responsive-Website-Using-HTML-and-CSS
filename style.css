@@ -184,6 +184,10 @@ header .header-cases{
         color: #111;
         font-weight: 600;
         text-transform: uppercase;
+        line-height: 10px;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
     } 
 }
 
