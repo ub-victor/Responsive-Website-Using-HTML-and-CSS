@@ -181,7 +181,7 @@ header .header-cases{
     }
 
     header .header-cases{
-        display: none;
+        display: block;
     } 
 }
 
