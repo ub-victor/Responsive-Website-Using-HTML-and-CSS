@@ -235,7 +235,7 @@ header .header-cases{
 }
 
 .index-link div {
-    margin: 16px 16px 0;
+    margin: 10px 10px 0;
     /* Set the width of the div to be the full width of its container minus 32px (16px margin on each side) */
     width: calc(100% - 32px);
     height: 100px;
@@ -254,19 +254,20 @@ header .header-cases{
 
 @media only screen and (min-width: 1000px){
     .index-banner{
-        width: 100%;
-        /* Set the height of the banner to fill the viewport height minus the header height */
-        height: 500px;
-        background-image: url(image/bac.jpg);
-        background-repeat: no-repeat;
-        background-position:center;
-        background-size: cover;
-        /* Center content vertically within the banner */
-        display: table;
+        height: 450px;
     }
-    .index-banner h2 {
+    .index-banner h1 {
         display: block;
         width: 580px;
+        margin: 0 auto;
+    }
+
+    index-link div {
+        margin: 16px 16px 0;
+        /* Set the width of the div to be the full width of its container minus 32px (16px margin on each side) */
+        width: calc(100% - 32px);
+        height: 100px;
+        background-color: #f2f2f2;
     }
 }
 
