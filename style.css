@@ -272,7 +272,7 @@ header .header-cases{
         background-color: #f2f2f2;
     }
     .index-boxlink-square{
-        width: calc(25% - 60px) !important;
+        width: calc(25% - 20px) !important;
     }
 }
 
