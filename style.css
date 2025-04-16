@@ -289,7 +289,7 @@ header .header-cases{
     }
 
     .index-boxlink-rectangle{
-        width: calc(50px - 20px) !important;
+        width: calc(50% - 20px) !important;
     }
 }
 
