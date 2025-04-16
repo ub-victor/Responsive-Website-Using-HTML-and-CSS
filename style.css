@@ -202,7 +202,7 @@ header .header-cases{
     background-image: url(image/bac.jpg);
     background-repeat: no-repeat;
     background-position:center;
-    background-size: cover;
+    background-size: 30% 100%;
     /* Center content vertically within the banner */
     display: table;
 }
