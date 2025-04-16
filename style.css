@@ -268,11 +268,11 @@ header .header-cases{
 
     index-link div {
         margin: 10px 10px 0;
-        height: 100px;
+        height: 250px;
         background-color: #f2f2f2;
     }
     .index-boxlink-square{
-        width: calc(25% - 60px);
+        width: calc(25% - 60px) !important;
     }
 }
 
