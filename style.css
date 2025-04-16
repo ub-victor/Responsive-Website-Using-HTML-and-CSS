@@ -271,7 +271,7 @@ header .header-cases{
         height: 230px;
         background-color: #f2f2f2;
     }
-    index-boxlink-square{
+    .index-boxlink-square{
         width: calc(25% - 20px) !important;
     }
 }
