@@ -252,6 +252,50 @@ header .header-cases{
     text-transform: uppercase;
 }
 
+@media only screen and (min-width: 1000px){
+    header .header-brand{
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px; /* Sets the vertical spacing between lines of text to 38px for better alignment and readability */
+        padding: 0px 20px 0px 38px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+
+    header nav ul {
+        margin: 45px 0px 0px 20px;/* Here we can center vertically the nav manually by creating the line-heigt the we take the 100px of the header-the px we give to the line-heigt then we divide the by 2 then we can give the top and buttom of the marge of the nav the number of px got*/
+        float: left;
+    }
+    
+    /* we do need these lines of codes as we need not make any modification to the ul li 
+    header nav ul li {
+        display: inline-block; 
+        float: left;
+        list-style: none;
+        padding: 0 16px;    
+    } */
+    
+    header nav ul a {
+        line-height: 10px;
+    }
+
+    header .header-cases{
+        display: block;
+        font-size: catamaran;
+        font-size: 20px;
+        color: #111;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 38px; /*let us put in mind that we have 40px due to those border so it will be 100px-40px=60px/2=30px for the mt to centered it the middle of the header*/
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0 20px;
+    } 
+}
+
+
 /* Footer */
 footer {
     /* This line sets the width of the element to 100% of its container's width, 
