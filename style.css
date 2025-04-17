@@ -296,6 +296,15 @@ header .header-cases{
     .index-boxlink-rectangle{
         width: calc(50% - 25px) !important;
     }
+    .index-link div h3 {
+        font-size: catamaran;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 100px;
+        color: #111;
+        text-align: center;
+        text-transform: uppercase;
+    }
 }
 
 
