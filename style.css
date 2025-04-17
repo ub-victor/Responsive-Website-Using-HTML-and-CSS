@@ -346,3 +346,52 @@ footer ul li a{
     margin-bottom: 10px;
     
 }
+
+@media only screen and (min-width: 1000px){
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner{
+        height: 450px;
+    }
+    .index-banner h1 {
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    index-link {
+        overflow: hidden;
+    }
+
+    .index-link div {
+        margin: 20px 10px 0;
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+    }
+
+    /*   
+  Set the width of the index boxes to take up 25% of the parent container's width,  
+  minus 20 pixels to allow for spacing between the boxes. This calculation ensures that  
+  each box is responsively sized to fit within the available space while maintaining  
+  a clear visual separation. The '!important' rule guarantees that this width setting   
+  takes precedence over any other conflicting width definitions.   
+
+  Example calculation when parent container is 1000px wide:  
+  - 25% of 1000px = 250px  
+  - After subtracting 20px for spacing: 250px - 20px = 230px  
+  Thus, each box will have a width of 230px.  
+*/  
+    .index-boxlink-square{
+        width: calc(25% - 20px) !important;
+    }
+
+    .index-boxlink-rectangle{
+        width: calc(50% - 25px) !important;
+    }
+    .index-link div h3 {
+        line-height: 230px;
+    }
+}
