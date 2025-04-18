@@ -266,7 +266,9 @@ header .header-cases{
         margin: 0 auto;
     }
 
-    
+    index-link {
+        overflow: hidden;
+    }
 
     .index-link div {
         margin: 20px 10px 0;
