@@ -290,7 +290,7 @@ header .header-cases{
   Thus, each box will have a width of 230px.  
 */  
     .index-boxlink-square{
-        width: calc(25% - 20px) !important;
+        width: calc(25% - 20px) !important; /* overrides the previous styling*/
     }
 
     .index-boxlink-rectangle{
