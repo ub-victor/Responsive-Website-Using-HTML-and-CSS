@@ -357,6 +357,7 @@ footer ul li a{
        font-size: 24px; 
        color: #fff;
        line-height: 40px;
+       text-transform: uppercase;
 
     }
 }
