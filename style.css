@@ -365,10 +365,11 @@ footer ul li a{
         float: left;
         padding-left: 20px;
     }
-    
+
     footer ul {
     width: fit-content;
     float: left;
     padding-left: 20px;
+    padding-right: 30px;
 }
 }
