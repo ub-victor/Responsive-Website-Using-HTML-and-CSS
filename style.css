@@ -308,7 +308,7 @@ footer {
         minus 80px, ensuring it adjusts responsively while maintaining a margin or padding. */
     width: calc(100% -80px);
     padding: 40px 40px;
-    margin-top: -20px;
+    margin-top: 20px;
     background-color: #111;
     overflow: hidden;
 }
