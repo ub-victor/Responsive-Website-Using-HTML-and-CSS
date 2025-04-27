@@ -355,5 +355,8 @@ footer ul li a{
     footer ul li p {
        font-family: Catamaran;
        font-size: 24px; 
+       color: #fff;
+       line-height: 40px;
+
     }
 }
