@@ -367,9 +367,6 @@ footer ul li a{
     }
 
     footer ul {
-    width: fit-content;
-    float: left;
-    padding-left: 20px;
     padding-right: 30px;
 }
 }
