@@ -358,11 +358,17 @@ footer ul li a{
        color: #fff;
        line-height: 40px;
        text-transform: uppercase;
-
     }
+
     footer ul {
         width: fit-content;
         float: left;
         padding-left: 20px;
     }
+    
+    footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
 }
