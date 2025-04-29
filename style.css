@@ -311,6 +311,11 @@ header .header-cases{
 
 /* Cases */
 
+.cases-links div {
+    width: 240px;
+}
+
+
 /* Footer */
 footer {
     /* This line sets the width of the element to 100% of its container's width, 
