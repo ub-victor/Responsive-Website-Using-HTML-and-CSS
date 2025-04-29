@@ -366,30 +366,39 @@ header .header-cases{
     color: #000;
 }
 
+
+
+
+
 /* Footer */
 footer {
-    /* This line sets the width of the element to 100% of its container's width, 
-        minus 80px, ensuring it adjusts responsively while maintaining a margin or padding. */
-    width: calc(100% -80px);
-    padding: 40px 40px;
+    width: 100%;
+    padding: 40px;
     margin-top: 20px;
     background-color: #111111;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 footer ul {
-    width: fit-content;
-    float: left;
     padding-left: 20px;
+    margin: 0;
 }
 
-footer ul li{
+footer ul li {
     display: block;
     list-style: none;
 }
 
-footer ul li a{
-    font-size: catamaran;
+footer ul li a {
+    font-family: Catamaran;
     font-size: 24px;
     color: #fff;
     line-height: 40px;
@@ -400,52 +409,41 @@ footer ul li a{
 }
 
 .footer-sm {
-    width: 50px;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .footer-sm img {
     height: 50px;
-    width: 100%;
-    margin-bottom: 10px;
-    
+    width: 50px;
 }
 
 .Reserved {
-    text-align: center;  
-    margin: 0 auto;
-    margin-top: 20px;  
+    text-align: center;
+    margin-top: auto; /* This pushes it to the bottom */
+    padding: 20px;
     background-color: rgb(117, 204, 36);
     border-radius: 8px 8px 0 0;
 }
 
-.Reserved a{
-    text-decoration: underline;  
-    color: #007BFF;  
-    font-weight: bold; 
+.Reserved a {
+    text-decoration: underline;
+    color: #007BFF;
+    font-weight: bold;
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px) {
     .footer-links-cases {
         display: block;
-    }  
+    }
     
     footer ul li p {
-       font-family: Catamaran;
-       font-size: 24px;
-       font-weight: 600; 
-       color: #fff;
-       line-height: 40px;
-       text-transform: uppercase;
+        font-family: Catamaran;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 40px;
+        text-transform: uppercase;
     }
-
-    footer ul {
-        width: fit-content;
-        float: left;
-        padding-left: 20px;
-    }
-
-    footer ul {
-    padding-right: 30px;
-}
 }
