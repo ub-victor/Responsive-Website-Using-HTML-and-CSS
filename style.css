@@ -550,7 +550,7 @@ footer::after {
     
     /* Ensure footer has more height on larger screens */
     footer {
-        min-height: 400px;
+        min-height: 250px;
     }
 }
 
