@@ -310,6 +310,9 @@ header .header-cases{
 }
 
 /* Cases */
+.cases-links {
+    overflow: hidden;
+}
 
 .cases-links div .cases-linkk {
     float: left;
