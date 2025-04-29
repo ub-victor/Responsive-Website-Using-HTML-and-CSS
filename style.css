@@ -390,7 +390,7 @@ footer ul li{
 }  
 
 footer ul li a{  
-    font-size: catamaran;  
+    font-size: Catamaran;  
     font-size: 24px;  
     color: #fff;  
     line-height: 40px;  
@@ -414,8 +414,7 @@ footer ul li a{
 
 .Reserved {  
     text-align: center;  
-    margin: 0 auto;  
-    margin-top: 20px;  
+    margin-top : auto;    
     background-color: rgb(117, 204, 36);  
     border-radius: 8px 8px 0 0;  
 }  
@@ -456,6 +455,8 @@ footer ul li a{
 
 
 /* Footer */
+
+
 /* footer {
     width: 100%;
     padding: 40px;
