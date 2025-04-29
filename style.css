@@ -368,10 +368,10 @@ header .header-cases{
 
 /* Footer */  
 
-footer {  
+/* footer {   */
     /* This line sets the width of the element to 100% of its container's width,   
         minus 80px, ensuring it adjusts responsively while maintaining a margin or padding. */  
-    width: calc(100% -80px);  
+    /* width: calc(100% -80px);  
     padding: 40px 40px;  
     margin-top: 20px;  
     background-color: #111111;  
@@ -390,7 +390,7 @@ footer ul li{
 }  
 
 footer ul li a{  
-    font-size: Catamaran;  
+    font-family: Catamaran; 
     font-size: 24px;  
     color: #fff;  
     line-height: 40px;  
@@ -448,7 +448,117 @@ footer ul li a{
     footer ul {  
     padding-right: 30px;
     }  
+} */
+
+
+
+
+
+/* Footer */
+footer {
+    width: calc(100% - 80px); /* Fixed missing space between - and 80px */
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111111;
+    overflow: hidden;
+    position: relative; /* Added to establish positioning context */
+    min-height: 300px; /* Added to ensure footer has enough height */
 }
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: Catamaran; /* Fixed typo: was 'font-size: catamaran' */
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-links-cases { /* Note: This has a typo (should match HTML's 'footer-links-cases') */
+    display: none;
+}
+
+.footer-sm {
+    width: 50px;
+    float: right;
+}
+
+.footer-sm img {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Reserved {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(117, 204, 36);
+    border-radius: 8px 8px 0 0;
+    position: absolute; /* Changed to absolute positioning */
+    bottom: 0; /* Position at bottom of footer */
+    left: 0; /* Stretch full width */
+    right: 0;
+    padding: 20px 0; /* Added padding for better spacing */
+    margin-top: 0; /* Removed previous margin-top */
+}
+
+.Reserved a {
+    text-decoration: underline;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Clearfix for floated elements - prevents layout collapse */
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer-links-cases { /* Corrected class name */
+        display: block;
+    }
+    
+    footer ul li p {
+        font-family: Catamaran;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    footer ul {
+        width: fit-content;
+        float: left;
+        padding-left: 20px;
+    }
+
+    footer ul {
+        padding-right: 30px;
+    }
+    
+    /* Ensure footer has more height on larger screens */
+    footer {
+        min-height: 400px;
+    }
+}
+
+
+
+
+
+
 
 
 
