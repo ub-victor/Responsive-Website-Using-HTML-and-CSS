@@ -315,6 +315,11 @@ header .header-cases{
     margin-bottom: 20px;
 }
 
+.cases-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
 .cases-links div .cases-linkk { 
     float: left;
     width: 230px;
