@@ -315,7 +315,7 @@ header .header-cases{
     margin-bottom: 20px;
 }
 
-.cases-links div .cases-linkk {
+.cases-links div  { 
     float: left;
     width: 230px;
     height: 230px;
