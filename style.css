@@ -501,7 +501,7 @@ footer ul li a {
 .Reserved {
     text-align: center;
     margin: 0 auto;
-    
+    background-color:  #bbeedf;
     border-radius: 8px 8px 0 0;
     position: absolute; /* Changed to absolute positioning */
     bottom: 0; /* Position at bottom of footer */
