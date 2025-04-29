@@ -312,13 +312,14 @@ header .header-cases{
 /* Cases */
 .cases-links {
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .cases-links div .cases-linkk {
     float: left;
-    width: 240px;
-    height: 240px;
-    margin: 10px 5px 0;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0;
     background-color: #bbeedf;
 }
 
