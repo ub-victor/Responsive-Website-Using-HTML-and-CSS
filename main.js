@@ -1,1 +1,1 @@
-const currentYeah = new 
+const currentYeah = new Date().getFullYear;
