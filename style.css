@@ -368,10 +368,10 @@ header .header-cases{
 
 /* Footer */  
 
-/* footer {   */
+footer {  
     /* This line sets the width of the element to 100% of its container's width,   
         minus 80px, ensuring it adjusts responsively while maintaining a margin or padding. */  
-    /* width: calc(100% -80px);  
+    width: calc(100% -80px);  
     padding: 40px 40px;  
     margin-top: 20px;  
     background-color: #111111;  
@@ -449,9 +449,12 @@ footer ul li a{
     footer ul {  
     padding-right: 30px;
     }  
-} */
+}
 
-/* 
+
+
+
+
 /* Footer */
 /* footer {
     width: 100%;
