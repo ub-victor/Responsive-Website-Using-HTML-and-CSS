@@ -107,7 +107,7 @@ input, select {
 }
 
 main{
-    
+    padding-top: 100px; /*Which is the height of of the hearder*/
 }
 
 header{
