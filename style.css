@@ -310,14 +310,6 @@ header .header-cases{
 }
 
 /* Cases */
-.cases-links h2{
-    font-size: catamaran;
-    font-size: 28px;
-    font-weight: 600;
-    color: #111;
-    text-transform: uppercase;
-}
-
 .cases-links {
     overflow: hidden;
     margin-bottom: 20px;
