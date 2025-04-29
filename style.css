@@ -311,7 +311,7 @@ header .header-cases{
 
 /* Cases */
 
-.cases-links div {
+.cases-links div .cases-link {
     float: left;
     width: 240px;
     height: 240px;
