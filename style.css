@@ -347,7 +347,7 @@ header .header-cases{
     line-height: 1.6;
     text-align: center; /* Center all text */
     margin: 0 auto; /* Center the container */
-    max-width: 300px; /* Optional: set a max width for better centering */
+    max-width: 330px; /* Optional: set a max width for better centering */
 }
 
 .contact h2 {
@@ -358,7 +358,7 @@ header .header-cases{
 
 .contact p {
     margin: 8px 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .contact span {
