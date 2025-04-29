@@ -341,7 +341,30 @@ header .header-cases{
     text-transform: uppercase;
 }
 
+.contact {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Center all text */
+    margin: 0 auto; /* Center the container */
+    max-width: 300px; /* Optional: set a max width for better centering */
+}
 
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.contact span {
+    font-weight: bold;
+    color: #000;
+}
 
 /* Footer */
 footer {
