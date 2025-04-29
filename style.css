@@ -315,6 +315,7 @@ header .header-cases{
     float: left;
     width: 240px;
     height: 240px;
+    margin: 10px 5px 0;
     background-color: #bbeedf;
 }
 
