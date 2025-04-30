@@ -467,12 +467,6 @@ footer ul li a{
     text-transform: uppercase;
 }
 
-.case-vid h2{
-   display: block;
-   margin: 0 auto;
-   padding: 30px 0px;
-}
-
 .case-vid video{
     width: 600px;
     height: 400px;
