@@ -521,14 +521,10 @@ footer ul li a {
 }
 
 /* Clearfix for floated elements - prevents layout collapse */
-/* 
 footer::after {
-    content: ""; /* Creates a pseudo-element after the footer element with no visible content. */
-    display: table; /* Ensures the pseudo-element behaves like a block-level element and establishes a new block formatting context. */
-    clear: both; /* Clears any floated elements within the footer to prevent layout issues. */
-*/
-    display: table;
-    clear: both;
+    content: ""; /* Inserts an empty content to create a pseudo-element */
+    display: table; /* Establishes a block formatting context to contain floated elements */
+    clear: both; /* Clears floats on both sides to prevent layout collapse */
 }
 
 @media only screen and (min-width: 1000px) {
