@@ -463,7 +463,7 @@ footer {
     background-color: #111111;
     overflow: hidden;
     position: relative; /* Added to establish positioning context */
-    min-height: 300px; /* Added to ensure footer has enough height */
+    min-height: 250px; /* Added to ensure footer has enough height */
 }
 
 footer ul {
