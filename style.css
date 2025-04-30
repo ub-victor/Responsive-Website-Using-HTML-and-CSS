@@ -325,7 +325,7 @@ header .header-cases{
     font-size: 28px;
     font-weight: 600;
     color: #111;
-    padding-top: 10px;
+    padding: 10px;
     text-transform: uppercase;
 }
 
