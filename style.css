@@ -523,7 +523,7 @@ footer ul li {
 
 footer ul li a {
     font-family: Catamaran; /* Fixed typo: was 'font-size: catamaran' */
-    font-size: 24px;
+    font-size: 16px;
     color: #fff;
     line-height: 40px;
 }
@@ -578,7 +578,7 @@ footer::after {
     
     footer ul li p {
         font-family: Catamaran;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 600;
         color: #fff;
         line-height: 40px;
