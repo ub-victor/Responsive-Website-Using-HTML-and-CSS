@@ -505,7 +505,7 @@ footer ul li a {
     margin: 0 auto;
     background-color:  #bbeedf;
     background-color:  #aac3c5;
-    border-radius: 8px 8px 8px 0;
+    border-radius: 8px 8px 0px 0;
     position: absolute; /* Changed to absolute positioning */
     bottom: 0; /* Position at bottom of footer */
     left: 0; /* Stretch full width */
