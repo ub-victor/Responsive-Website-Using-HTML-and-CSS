@@ -476,6 +476,21 @@ footer ul li a{
     margin: 0 auto;
  }
 
+ .case-vid article h3{
+    font-size: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+ }
+
+ .case-vid article div p{
+    font-size: Catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+ }
 
 
 
