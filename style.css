@@ -491,7 +491,9 @@ footer ul li a{
     line-height: ;
     color: #111;
     text-transform: uppercase;
-    text-transform: capitalize;
+    column-count: 3;
+    column-gap: 30px;
+
  }
 
 
