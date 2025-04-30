@@ -488,8 +488,10 @@ footer ul li a{
     font-size: Catamaran;
     font-size: 16px;
     font-weight: 600;
+    line-height: ;
     color: #111;
     text-transform: uppercase;
+    text-transform: capitalize;
  }
 
 
