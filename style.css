@@ -453,8 +453,12 @@ footer ul li a{
 
 
 /* Case1 */
-.case-vid {
-    
+.case-vid h2{
+    font-size: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
 }
 
 
