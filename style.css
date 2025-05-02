@@ -360,6 +360,7 @@ header .header-cases{
     float: left;
     width: 230px;
     height: 230px;
+    align-items: center;
     margin: 20px 10px 0;
     background-color: #bbeedf;
 }
