@@ -271,10 +271,7 @@ header .header-cases{
 @media only screen and (min-width: 1000px){
     .index-banner h2 {
         font-size: 50px;
-        line-height: 70px;
-        color: #fff;
-        text-align: center;
-        text-shadow: 2px 2px 8px #111; 
+        line-height: 70px; 
     }
     .index-banner h1 {
         font-family: Catamaran Garamond;
