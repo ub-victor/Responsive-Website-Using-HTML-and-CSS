@@ -268,6 +268,15 @@ header .header-cases{
 }
 
 @media only screen and (min-width: 1000px){
+    .index-banner h2 {
+        font-family: Catamaran;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 70px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 2px 2px 8px #111; 
+    }
     .wrapper {
         width: 1000px;
         margin: 0 auto;
