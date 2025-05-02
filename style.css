@@ -60,8 +60,9 @@ a {
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000; 
+    background-c
+    olor:#ff9;
+    color:#000;
     text-decoration:none;
 }
 
@@ -152,7 +153,7 @@ header nav ul li {
 }
 
 header nav ul a {
-    font-size: catamaran;
+    font-family: Catamaran;
     font-size: 20px;
     color: #111;
     font-weight: 600;
