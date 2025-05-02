@@ -342,11 +342,6 @@ header .header-cases{
 }
 
 /* Cases */
-.center-link{
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-}
 .cases-links {
     overflow: hidden;
     margin-bottom: 20px;
