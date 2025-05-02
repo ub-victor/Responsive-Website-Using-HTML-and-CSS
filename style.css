@@ -277,6 +277,16 @@ header .header-cases{
         text-align: center;
         text-shadow: 2px 2px 8px #111; 
     }
+    .index-banner h1 {
+        font-family: Catamaran Garamond;
+        font-size: 28px;
+        font-weight: 100;
+        font-style: italic;
+        line-height: 40px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 2px 2px 8px #111; 
+    }
     .wrapper {
         width: 1000px;
         margin: 0 auto;
