@@ -214,6 +214,7 @@ header .header-cases{
     width: 100%;
     /* Set the height of the banner to fill the viewport height minus the header height */
     height: calc(100vh - 100px);
+    max-height: 200px;
     background-image: url(image/bac.jpg);
     background-repeat: no-repeat;
     background-position:center;
