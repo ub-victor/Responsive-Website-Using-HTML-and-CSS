@@ -359,7 +359,7 @@ header .header-cases{
 .cases-links div .cases-link { 
     float: left;
     width: 230px;
-    height: 230px;
+    height: 230px;  
     margin: 20px 10px 0;
     background-color: #bbeedf;
 }
