@@ -232,7 +232,7 @@ header .header-cases{
 .index-banner h2 {
     font-family: Catamaran;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 55px;
     color: #fff;
     text-align: center;
@@ -242,7 +242,7 @@ header .header-cases{
 .index-banner h1 {
     font-family: Catamaran Garamond;
     font-size: 27px;
-    font-weight: 100;
+    font-weight: bold;
     font-style: italic;
     line-height: 40px;
     color: #fff;
@@ -286,7 +286,7 @@ header .header-cases{
     }
     .index-banner h1 {
         font-size: 28px;
-        font-weight: 100;
+        font-weight: 500;
         font-style: italic;
         line-height: 40px;
         color: #fff;
