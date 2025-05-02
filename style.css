@@ -269,6 +269,18 @@ header .header-cases{
 }
 
 @media only screen and (min-width: 1000px){
+    .index-banner{
+        width: 100%;
+        /* Set the height of the banner to fill the viewport height minus the header height */
+        height: calc(100vh - 100px);
+        max-height: 250px;
+        background-image: url(image/bac.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        /* Center content vertically within the banner */
+        display: table;
+    }
     .index-banner h2 {
         font-size: 50px;
         line-height: 70px; 
