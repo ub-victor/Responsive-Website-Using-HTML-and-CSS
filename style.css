@@ -271,7 +271,6 @@ header .header-cases{
 @media only screen and (min-width: 1000px){
     .index-banner h2 {
         font-size: 50px;
-        font-weight: 900;
         line-height: 70px;
         color: #fff;
         text-align: center;
