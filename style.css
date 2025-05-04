@@ -507,6 +507,7 @@ footer ul li a{
  }
 
  .case-vid article h3{
+    display: none;
     font-size: Catamaran;
     font-size: 28px;
     font-weight: 600;
@@ -516,6 +517,7 @@ footer ul li a{
  }
 
  .case-vid article div p{
+    display: none;
     font-size: Catamaran;
     font-size: 16px;
     font-weight: 600;
@@ -525,6 +527,10 @@ footer ul li a{
     column-count: 3;
     column-gap: 30px;
 
+ }
+
+ @media only screen and (min-width: 1000px){
+    
  }
 
 
