@@ -345,6 +345,7 @@ header .header-cases{
 .cases-links {
     overflow: hidden;
     margin: 20px 10px;
+    text-align: center;
 }
 
 .wrapper {
@@ -531,7 +532,7 @@ footer ul li a{
 
  @media only screen and (min-width: 1000px){
     .case-vid article h3{
-        display: none;
+        display: block;
         font-size: Catamaran;
         font-size: 28px;
         font-weight: 600;
@@ -541,7 +542,7 @@ footer ul li a{
      }
     
      .case-vid article div p{
-        display: none;
+        display: block;
         font-size: Catamaran;
         font-size: 16px;
         font-weight: 600;
