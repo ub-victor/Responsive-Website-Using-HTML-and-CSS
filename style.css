@@ -530,7 +530,28 @@ footer ul li a{
  }
 
  @media only screen and (min-width: 1000px){
+    .case-vid article h3{
+        display: none;
+        font-size: Catamaran;
+        font-size: 28px;
+        font-weight: 600;
+        color: #111;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+     }
     
+     .case-vid article div p{
+        display: none;
+        font-size: Catamaran;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: ;
+        color: #111;
+        text-transform: uppercase;
+        column-count: 3;
+        column-gap: 30px;
+    
+     }
 
  }
 
