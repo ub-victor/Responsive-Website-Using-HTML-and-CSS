@@ -369,6 +369,7 @@ header .header-cases{
     background-color: #bbeedf;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cases-links .cases-link p{
