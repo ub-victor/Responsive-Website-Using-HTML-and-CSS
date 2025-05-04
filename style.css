@@ -346,6 +346,7 @@ header .header-cases{
     overflow: hidden;
     margin-bottom: 20px;
     display: flex;
+    align-items: center;
 }
 
 .cases-links h2{
