@@ -344,6 +344,7 @@ header .header-cases{
 /* Cases */
 .wrapper {
     display: flex;
+    justify-content: center;
 }
 .cases-links {
     overflow: hidden;
