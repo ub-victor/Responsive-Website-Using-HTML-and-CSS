@@ -345,7 +345,7 @@ header .header-cases{
 .cases-links {
     width: 100%;
     overflow: hidden;
-    margin: 20px 10px;
+    margin: 20px auto;
 }
 
 .cases-links h2 {
