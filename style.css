@@ -345,6 +345,7 @@ header .header-cases{
 .wrapper {
     display: flex;
     justify-content: center;
+    align-items: self-start;/* optional, for vertical alignment */
 }
 .cases-links {
     overflow: hidden;
