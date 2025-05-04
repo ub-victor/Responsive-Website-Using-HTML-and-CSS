@@ -351,6 +351,7 @@ header .header-cases{
     overflow: hidden;
     margin-bottom: 20px;
     display: flex;
+    align-items: center;
 }
 
 .cases-links h2{
@@ -368,6 +369,7 @@ header .header-cases{
     margin: 20px 10px 0;
     background-color: #bbeedf;
     display: flex;
+    align-items: center;
 }
 
 .cases-links .cases-link p{
