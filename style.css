@@ -342,6 +342,9 @@ header .header-cases{
 }
 
 /* Cases */
+.wrapper {
+    display: flex;
+}
 .cases-links {
     overflow: hidden;
     margin-bottom: 20px;
