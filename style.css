@@ -370,6 +370,7 @@ header .header-cases{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .cases-links .cases-link p{
