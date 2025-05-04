@@ -343,8 +343,12 @@ header .header-cases{
 
 /* Cases */
 .cases-links {
-    width: 100%;
     overflow: hidden;
+    margin: 20px 10px;
+}
+
+.wrapper {
+    width: 100%;
     margin: 0 auto;
 }
 
