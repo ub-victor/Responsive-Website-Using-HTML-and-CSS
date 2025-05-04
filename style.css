@@ -342,46 +342,38 @@ header .header-cases{
 }
 
 /* Cases */
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: self-start;/* optional, for vertical alignment */
-}
+/* CASES */
+
 .cases-links {
     overflow: hidden;
     margin-bottom: 20px;
-    display: flex;
 }
 
-.cases-links h2{
-    font-size: Catamaran;
+.cases-links h2 {
+    font-family: Catamaran;
     font-size: 28px;
     font-weight: 600;
     color: #111;
-    padding: 10px;
     text-transform: uppercase;
 }
 
-.cases-links div .cases-link { 
+.cases-links .wrapper div {
+    float: left;
     width: 230px;
-    height: 230px;  
-    margin: 20px 10px 0;
-    background-color: #bbeedf;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+    height: 230px;
+    margin: 20px 10px 0px;
+    background-color: #e3e3e3;
 }
 
-.cases-links .cases-link p{
+.cases-links .wrapper p {
     padding-top: 45%;
-    font-family: 'Catamaran', sans-serif;
+    font-family: Catamaran;
     font-size: 24px;
     font-weight: 600;
     color: #111;
     text-align: center;
     text-transform: uppercase;
-}
+
 
 .contact {
     font-family: Arial, sans-serif;
