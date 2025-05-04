@@ -344,11 +344,11 @@ header .header-cases{
 /* Cases */
 .cases-links {
     overflow: hidden;
-    margin-bottom: 20px;
+    margin: 20px 10px;
 }
 
 .cases-links h2 {
-    font-family: Catamaran;
+    font-family: 'Catamaran', sans-serif;
     font-size: 28px;
     font-weight: 600;
     color: #111;
