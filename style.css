@@ -345,12 +345,9 @@ header .header-cases{
 .cases-links {
     overflow: hidden;
     margin: 20px 10px;
-    text-align: center;
+    width: 100%;
 }
 
-.wrapper {
-    margin: 0 auto;
-}
 
 .cases-links h2 {
     font-family: 'Catamaran', sans-serif;
@@ -364,6 +361,7 @@ header .header-cases{
     float: left;
     width: 230px;
     height: 230px;
+    text-align: center;
     margin: 20px 10px 0px;
     background-color: #bbeedf;
 }
