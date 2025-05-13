@@ -572,6 +572,10 @@ footer ul li a{
     flex-basis: 23%; /* Set the width of each image to 23% of the container */
     margin: 10px;
 }
+.gallery-img img{
+    flex-basis: 23%; /* Set the width of each image to 23% of the container */
+    margin: 10px;
+}
 
 @media only screen and (min-width: 762px){
     .gallery-links-h2 {
