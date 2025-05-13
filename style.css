@@ -570,7 +570,7 @@ footer ul li a{
 
 .gallery-img{
     flex-basis: 23%; /* Set the width of each image to 23% of the container */
-    margin: 20px;
+    margin: 10px;
 }
 
 @media only screen and (min-width: 762px){
