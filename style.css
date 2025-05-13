@@ -681,11 +681,9 @@ footer ul li a{
 
 /* Footer */
 footer {
-    width: 100%;
+    width: calc(100% - 80px); /* Fixed missing space between - and 80px */
     padding: 40px 40px;
-    margin: 20px 0px;
-    left: 0;
-    right: 0;
+    margin-top: 20px;
     background-color: #111111;
     overflow: hidden;
     position: relative; /* Added to establish positioning context */
