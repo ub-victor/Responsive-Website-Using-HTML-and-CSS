@@ -622,7 +622,7 @@ footer ul li a{
 
 .gallery-links-h2 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #333;
     position: relative;
     display: inline-block;
@@ -631,7 +631,7 @@ footer ul li a{
 .gallery-links-h2::after {
     content: "";
     position: absolute;
-    bottom: -10px;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
     width: 80px;
