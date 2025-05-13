@@ -634,7 +634,7 @@ footer ul li a{
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
+    width: 100px;
     height: 4px;
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     border-radius: 2px;
