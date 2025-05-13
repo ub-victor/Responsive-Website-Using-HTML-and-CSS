@@ -563,6 +563,16 @@ footer ul li a{
     padding: 20px;
 }
 
+.gallery-links{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery-img{
+    flex-basis: 23%; /* Set the width of each image to 23% of the container */
+    margin: 20px;
+}
+
 @media only screen and (min-width: 762px){
     .gallery-links-h2 {
         font-size: 28px;
