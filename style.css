@@ -563,6 +563,12 @@ footer ul li a{
     padding: 20px;
 }
 
+@media only screen and (min-width: 762px){
+    .gallery-links-h2 {
+        font-size: 28px;
+    }   
+}
+
 
 
 /* Footer */
