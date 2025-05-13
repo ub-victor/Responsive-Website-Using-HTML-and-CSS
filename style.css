@@ -563,18 +563,111 @@ footer ul li a{
     padding: 20px;
 }
 
-.gallery-links{
-    display: flex;
-    flex-flow: row wrap;
+/* Gallery Styles */
+.gallary-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-.gallery-img{
-    flex-basis: 23%; /* Set the width of each image to 23% of the container */
-    margin: 10px;
+.gallary-img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 1/1;
+    transition: all 0.3s ease;
 }
-.gallery-img img{
-    flex-basis: 23%; /* Set the width of each image to 23% of the container */
-    margin: 10px;
+
+.gallary-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallary-img:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.gallary-img:hover img {
+    transform: scale(1.05);
+}
+
+.gallary-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent 40%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallary-img:hover::after {
+    opacity: 1;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.gallery-links-h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-links-h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border-radius: 2px;
+}
+
+/* Lightbox effect */
+.gallary-img {
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallary-links {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .gallery-links-h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallary-links {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .gallery-links-h2 {
+        font-size: 1.8rem;
+    }
 }
 
 @media only screen and (min-width: 762px){
