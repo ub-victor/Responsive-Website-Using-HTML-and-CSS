@@ -28,6 +28,7 @@ time, mark, audio, video {
 }
 
 body {
+    height: 100hv;
     line-height:1;
 }
 
