@@ -27,8 +27,10 @@ time, mark, audio, video {
     background:transparent;
 }
 
-body {
+body, html {
     height: 100%;
+}
+body {
     line-height:1;
 }
 
