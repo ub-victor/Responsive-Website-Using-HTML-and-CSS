@@ -884,7 +884,7 @@ footer ul li a{
 /* About Page Styles */
 .about-banner {
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     max-height: 250px;
     background-image: url('image/A.jpg');
     background-repeat: no-repeat;
