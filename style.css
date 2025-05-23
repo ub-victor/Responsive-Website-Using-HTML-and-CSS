@@ -888,7 +888,7 @@ footer ul li a{
     max-height: 250px;
     background-image: url('image/A.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    
     background-size: cover;
     display: table;
 }
