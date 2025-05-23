@@ -114,19 +114,19 @@ main{
     padding-top: 100px; /*Which is the height of of the hearder*/
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    background-color: #fff;
-    background-color:  #aac3c5;
+    background-color: #aac3c5; /* Removed duplicate background-color */
     width: 100%;
     height: 100px;
     z-index: 1000;
 }
 
-header .header-brand{
+/* Style for header brand */
+header .header-brand {
     font-family: Catamaran;
     font-size: 24px;
     font-weight: 900;
@@ -137,81 +137,114 @@ header .header-brand{
     text-align: center;
     padding: 20px 0;
 
+    /* Transition for hover effects */
+    transition: all 0.3s ease;
 }
 
 header .header-brand:hover {
-    font-size: 25px;
+    font-size: 25px; /* Slightly increase font size for hover effect */
+    color: #ff0000;  /* Change color on hover */
 }
 
+/* Style for navigation ul */
 header nav ul {
     display: block;
-    margin: 0 auto;/*to center the ul but it will not center  it because the ul take 100% of width of the header */
-    width: fit-content; /* it sets it to fit*/
+    margin: 0 auto; /* centers the ul horizontally */
+    width: fit-content; /* Adjust to fit content */
+    /* Remove float for mobile/responsiveness, keep only for desktop if needed */
 }
 
+/* Style for list items */
 header nav ul li {
-    display: inline-block; /*Align item horizotally*/
+    display: inline-block; /* Horizontal layout */
     float: left;
     list-style: none;
     padding: 0 16px;    
 }
 
+/* Style for links inside ul */
 header nav ul a {
     font-family: Catamaran;
     font-size: 18px;
     color: #111;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: uppercase;   
+    text-decoration: none; /* remove default underline */
+
+    /* Transition for hover effects */
+    transition: all 0.3s ease;
 }
 
-header .header-cases{
-    display: none;
-} 
+/* Hover effects for nav links */
+header nav ul a:hover {
+    color: #ff0000; /* Change color on hover */
+    text-decoration: underline; /* underline on hover */
+    background-color: #e0e0e0; /* optional background */
+}
 
+/* Style for Cases link, initially hidden */
+header .header-cases {
+    display: none;
+}
+
+/* Responsive styles for screens >= 1000px */
 @media only screen and (min-width: 1000px){
-    header .header-brand{
+    /* Style for brand on large screens */
+    header .header-brand {
         margin: 31px 0;
         text-align: left;
-        line-height: 38px; /* Sets the vertical spacing between lines of text to 38px for better alignment and readability */
+        line-height: 38px; 
         padding: 0px 20px 0px 38px;
         border-right: 3px solid #111;
         float: left;
+
+        /* Transition for hover */
+        transition: all 0.3s ease;
     }
 
+    header .header-brand:hover {
+        font-size: 26px;
+        color: #ff0000;
+    }
+
+    /* Style for nav ul on large screens */
     header nav ul {
-        margin: 45px 0px 0px 20px;/* Here we can center vertically the nav manually by creating the line-heigt the we take the 100px of the header-the px we give to the line-heigt then we divide the by 2 then we can give the top and buttom of the marge of the nav the number of px got*/
+        margin: 45px 0px 0px 20px;
         float: left;
     }
-    
-    /* we do need these lines of codes as we need not make any modification to the ul li 
-    header nav ul li {
-        display: inline-block; 
-        float: left;
-        list-style: none;
-        padding: 0 16px;    
-    } */
-    
+
+    /* Style for nav links in large screens */
     header nav ul a {
         font-size: 20px;
         line-height: 10px;
+        /* Transition already applied above */
     }
 
-    header .header-cases{
+    /* Style for "Cases" link */
+    header .header-cases {
         display: block;
         font-family: Catamaran;
         font-size: 20px;
         color: #111;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 38px; /*let us put in mind that we have 40px due to those border so it will be 100px-40px=60px/2=30px for the mt to centered it the middle of the header*/
+        line-height: 38px; 
         border: 1px solid #111;
         float: right;
         margin-right: 40px;
         margin-top: 30px;
         padding: 0 20px;
-    } 
-}
 
+        /* Transition for hover */
+        transition: all 0.3s ease;
+    }
+
+    /* Hover effect for "Cases" link */
+    header .header-cases:hover {
+        background-color: #ccc;
+        color: #222;
+    }
+}
 /* INDEX*/
 
 .index-banner{
