@@ -1053,7 +1053,7 @@ footer ul li a{
     max-height: 250px;
     background-image: url('image/XX.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     background-size: cover;
     display: table;
 }
